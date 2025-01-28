@@ -5,6 +5,28 @@
     <IsPackable>true</IsPackable>
     <IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net6.0'))">true</IsTrimmable>
     <IsAotCompatible Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net7.0'))">true</IsAotCompatible>
+    <AssemblyName>YoutubeExplodeRu</AssemblyName>
+    <RootNamespace>YoutubeExplodeRu</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+
+    <PackageId>YoutubeExplodeRu</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>elliot</Authors>
+
+    <Product>YoutubeExplodeRu</Product>
+    
+    <Description>Ru version of YoutubeExplode</Description>
+    <Summary>Ru version of YoutubeExplode</Summary>
+    <PackageTags>Youtube, Video, Download</PackageTags>
+    <PackageProjectUrl>https://github.com/m3th4d0n/YoutubeExplodeRu</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/m3th4d0n/YoutubeExplodeRu</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup>
